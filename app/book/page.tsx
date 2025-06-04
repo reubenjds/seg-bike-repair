@@ -160,21 +160,37 @@ export default function BookRepair() {
 												<SelectTrigger className='mt-1 border-gray-300 focus:border-red-500 focus:ring-red-500'>
 													<SelectValue placeholder='Select the main issue' />
 												</SelectTrigger>
-												<SelectContent>
-													<SelectItem value='flat-tire'>Flat tire</SelectItem>
-													<SelectItem value='brake-issue'>
+												<SelectContent className='bg-white'>
+													<SelectItem
+														value='flat-tire'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
+														Flat tire
+													</SelectItem>
+													<SelectItem
+														value='brake-issue'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
 														Brake issue
 													</SelectItem>
-													<SelectItem value='gear-problem'>
+													<SelectItem
+														value='gear-problem'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
 														Gear problem
 													</SelectItem>
-													<SelectItem value='chain-off'>
+													<SelectItem
+														value='chain-off'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
 														Chain came off
 													</SelectItem>
-													<SelectItem value='tune-up'>
+													<SelectItem
+														value='tune-up'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
 														General tune-up
 													</SelectItem>
-													<SelectItem value='other'>Other</SelectItem>
+													<SelectItem
+														value='other'
+														className='hover:bg-red-100 focus:bg-red-100 transition-colors'>
+														Other
+													</SelectItem>
 												</SelectContent>
 											</Select>
 										</div>
