@@ -334,9 +334,9 @@ export default function BookRepair() {
 									</div>
 								</div>
 
-								<div className='mt-8 space-y-3 animate-in slide-in-from-bottom duration-500 delay-700'>
+								<div className='mt-8 animate-in slide-in-from-bottom duration-500 delay-700'>
 									<Link href='/'>
-										<Button className='w-full bg-red-700 hover:bg-red-800 text-white'>
+										<Button className='w-full bg-red-700 hover:bg-red-800 text-white mb-3'>
 											Return to Home
 										</Button>
 									</Link>
