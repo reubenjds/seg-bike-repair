@@ -28,7 +28,7 @@ export default function Home() {
 						</p>
 					</div>
 
-					<Link href='/book-repair'>
+					<Link href='/book'>
 						<Button
 							size='lg'
 							className='bg-red-700 hover:bg-red-800 text-white px-12 py-8 text-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300'>
@@ -213,7 +213,7 @@ export default function Home() {
 					</div>
 
 					<div className='text-center mt-12'>
-						<Link href='/book-repair'>
+						<Link href='/book'>
 							<Button
 								size='lg'
 								className='bg-red-700 hover:bg-red-800 text-white px-8 py-4 text-lg'>
