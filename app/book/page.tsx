@@ -50,20 +50,22 @@ export default function BookRepair() {
 			{/* Header */}
 			<header className='bg-white shadow-sm border-b flex-shrink-0'>
 				<div className='container mx-auto px-4 py-3'>
-					<div className='flex items-center justify-between'>
-						<Link
-							href='/'
-							className='flex items-center text-gray-600 hover:text-gray-800 transition-colors'>
-							<ArrowLeft className='h-5 w-5 mr-2' />
-							Back to Home
-						</Link>
-						<div className='text-center'>
-							<h1 className='text-xl font-bold text-gray-800'>
+					<div className='flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between'>
+						<div className='flex items-center justify-between'>
+							<Link
+								href='/'
+								className='flex items-center text-gray-600 hover:text-gray-800 transition-colors'>
+								<ArrowLeft className='h-5 w-5 mr-2' />
+								<span className='hidden xs:inline'>Back to Home</span>
+							</Link>
+						</div>
+						<div className='text-center flex-1'>
+							<h1 className='text-lg sm:text-xl font-bold text-gray-800'>
 								Eric's Bikes & Repairs
 							</h1>
 							<p className='text-xs text-gray-600'>Est. 1991</p>
 						</div>
-						<div className='flex items-center text-gray-600'>
+						<div className='flex items-center justify-end text-gray-600 mt-2 sm:mt-0'>
 							<Phone className='h-4 w-4 mr-2' />
 							<span className='text-sm'>(613) 123-4567</span>
 						</div>

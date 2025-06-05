@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<main className='min-h-screen'>
 			{/* Hero Section - Full Page */}
-			<section className='relative h-screen flex items-center justify-center'>
+			<section className='relative min-h-screen flex flex-col items-center justify-center px-2 py-8 md:h-screen md:px-0 md:py-0'>
 				<div
 					className='absolute inset-0 bg-cover bg-center'
 					style={{
