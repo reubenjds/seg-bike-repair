@@ -59,9 +59,9 @@ export default function Home() {
 				</div>
 
 				{/* Scroll indicator */}
-				<div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white'>
+				<div className='absolute bottom-2 md:bottom-8 left-1/2 -translate-x-1/2 text-white w-full flex justify-center'>
 					<div className='flex flex-col items-center'>
-						<span className='text-sm mb-2'>Learn More</span>
+						<span className='text-sm mb-2 hidden md:inline'>Learn More</span>
 						<svg className='w-6 h-6' fill='currentColor' viewBox='0 0 24 24'>
 							<path d='M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z' />
 						</svg>
