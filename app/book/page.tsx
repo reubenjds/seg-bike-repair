@@ -150,6 +150,22 @@ export default function BookRepair() {
 													disabled={isSubmitting}
 												/>
 											</div>
+											{/* Date Selector */}
+											<div>
+												<Label
+													htmlFor='date'
+													className='text-gray-700 font-medium'>
+													Preferred Date *
+												</Label>
+												<Input
+													id='date'
+													type='date'
+													className='mt-1 border-gray-300 focus:border-red-500 focus:ring-red-500'
+													required
+													disabled={isSubmitting}
+													min={new Date().toISOString().split("T")[0]}
+												/>
+											</div>
 										</div>
 
 										<div>
