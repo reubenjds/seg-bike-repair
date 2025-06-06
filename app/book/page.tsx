@@ -166,6 +166,20 @@ export default function BookRepair() {
 													min={new Date().toISOString().split("T")[0]}
 												/>
 											</div>
+											<div>
+												<Label
+													htmlFor='time'
+													className='text-gray-700 font-medium'>
+													Preferred Time *
+												</Label>
+												<Input
+													id='time'
+													type='time'
+													className='mt-1 border-gray-300 focus:border-red-500 focus:ring-red-500'
+													required
+													disabled={isSubmitting}
+												/>
+											</div>
 										</div>
 
 										<div>
